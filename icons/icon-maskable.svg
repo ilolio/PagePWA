@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Full background for maskable safe zone -->
+  <rect width="512" height="512" fill="#1a1a2e"/>
+  <!-- Outer ring (centered, sized for safe zone) -->
+  <circle cx="256" cy="268" r="130" fill="none" stroke="#0f3460" stroke-width="12"/>
+  <!-- Tick marks -->
+  <g stroke="#8892a4" stroke-width="4">
+    <line x1="256" y1="142" x2="256" y2="158"/>
+    <line x1="256" y1="378" x2="256" y2="394"/>
+    <line x1="126" y1="268" x2="142" y2="268"/>
+    <line x1="370" y1="268" x2="386" y2="268"/>
+  </g>
+  <!-- Minute hand -->
+  <line x1="256" y1="268" x2="256" y2="176" stroke="#eee" stroke-width="8" stroke-linecap="round"/>
+  <!-- Second hand -->
+  <line x1="256" y1="268" x2="326" y2="218" stroke="#e94560" stroke-width="5" stroke-linecap="round"/>
+  <!-- Center dot -->
+  <circle cx="256" cy="268" r="10" fill="#e94560"/>
+  <!-- Top button -->
+  <rect x="240" y="104" width="32" height="28" rx="6" fill="#0f3460"/>
+</svg>
